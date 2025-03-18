@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Importante: asegúrate de que basePath esté vacío para GitHub Pages
   basePath: '',
-  trailingSlash: true,
 };
 
 export default nextConfig;
