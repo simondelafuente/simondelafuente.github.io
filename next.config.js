@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  distDir: "out",
+  output: 'export',
   images: {
-    unoptimized: true, // Evita errores con imágenes en GitHub Pages
+    unoptimized: true, // importante si usas imágenes
   },
-  basePath: "/simondelafuente.github.io", // Necesario para GitHub Pages
-  assetPrefix: "/simondelafuente.github.io/",
+  basePath: '/simondelafuente.github.io', // reemplaza con el nombre exacto de tu repositorio
+  assetPrefix: '/simondelafuente.github.io/', // igual que arriba
+
 };
 
 module.exports = nextConfig;
